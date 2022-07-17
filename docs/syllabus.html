@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>E6156 - Topics in SW Engineering: Cloud Computing</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/business-frontpage.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<script>
+    $(document).ready(function () {
+        $('i').click(function () {
+            $(this).toggleClass('fa-plus-square fa-minus-square');
+        });
+    });
+</script>
+
+<!-- Navigation -->
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">E6156 - Topics in SW Engineering<br>(Sec. 001, Fall 2021)</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About the Course</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="syllabus.html">Syllabus</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="exams_assignments.html">HW/Exams</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="examples.html">Examples</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="reference-material.html">Reference Material</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="instructors.html">Instructors</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Header -->
+<header class="bg-primary py-5 mb-5">
+    <div class="container h-50">
+        <div class="row h-50 align-items-center">
+            <div class="col-lg-12">
+                <h1 class="display-4 text-white mt-5 mb-2">Syllabus</h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Page Content -->
+<div class="container">
+
+    <!-- /.row -->
+    <div style="border-bottom-style: solid; border-top-style: solid;" class="row">
+        <div class="col">
+        <h2>Note:</h2>
+            <p>
+                The syllabus is currently a draft and evolving. We will also adapt based on progress during the
+                semester and on student feedback/project progress.
+            </p>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="col">
+            <p></p>
+        <p></p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col" align="left">
+            <h5>Lecture Schedule</h5>
+            <p>
+                Lectures can cover material and concepts much faster than students can realize in their project
+                development. So, the class will have the following cadence for lectures:
+                <ul>
+            <li>Two weeks of lectures introducing topics and technology.</li>
+            <li>One week using the lecture session to discuss and review projects, resolve issues, etc.</li>
+
+        </ul>
+            <p>
+                Previous experience in the course suggests that the schedule below is likely to change.
+                <ul>
+                    <li>Student interests, questions and issues cause reordering.</li>
+                    <li>Students get stuck on certain concepts in projects.</li>
+                </ul>
+            </p>
+            <table style="height: 171px; width: 1200px;" border="2" cellspacing="2">
+                <tbody>
+                <tr style="height: 21px;">
+                    <td style="width: 100px; height: 21px;"><strong>Lecture No.</strong></td>
+                    <td style="width: 100px; height: 21px;"><strong>Date</strong></td>
+                    <td style="width: 600px; height: 21px;"><strong>Topics</strong></td>
+                    </td>
+                </tr>
+                <tr style="height: 91px;">
+                    <td style="width: 100px; height: 91px;">1</td>
+                    <td style="width: 100px; height: 91px;">10-Sep</td>
+                    <td style="width: 600px; height: 91px;">
+                        <p><b>Introduction, Course Overview, Foundational Concepts</b>
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-1"
+                                    aria-expanded="true" aria-controls="collapse1">
+                                <i class="fa fa-plus-square" style="font-size:18px;color:black"></i>
+                            </button>
+                        </p>
+                        <div id="collapse-1" class="collapse" aria-labelledby="heading2">
+                            <!-- data-parent="#accordion"> -->
+                            <ul>
+                                <li>Course overview, project, grading, logistics, ...
+                                <li>Technical Topics</li>
+                                <ul>
+                                    <li>IaaS: server, storage, networking (EC2)</li>
+                                    <li>Basic security and networking concepts.</li>
+                                    <li>Introduction to REST, microservices, web applications.</li>
+                                    <li>Full stack web applications.</li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="height: 91px;">
+                    <td style="width: 100px; height: 91px;">2</td>
+                    <td style="width: 100px; height: 91px;">17-Sep</td>
+                    <td style="width: 600px; height: 91px;">
+                        <p><b>Platform-as-a-Service, REST</b>
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-2"
+                                    aria-expanded="true" aria-controls="collapse1">
+                                <i class="fa fa-plus-square" style="font-size:18px;color:black"></i>
+                            </button>
+                        </p>
+                        <div id="collapse-2" class="collapse" aria-labelledby="heading2">
+                            <!-- data-parent="#accordion"> -->
+                            <ul>
+                                <li>Microservices.</li>
+                                <li>Elastic Load Balancing.</li>
+                                <li>Elastic Beanstalk.</li>
+                                <li>Docker, containers, Elastic Container Service.</li>
+                                <li>Scale-up vs Scale-out.</li>
+                                <li>APIs and API Gateway.</li>
+                                <li>REST design principles.</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="height: 91px;">
+                    <td style="width: 100px; height: 91px;">3</td>
+                    <td style="width: 100px; height: 91px;">24-Sep</td>
+                    <td style="width: 600px; height: 91px;">
+                        <p><b>Project Reviews and Discussions.</b>
+
+                    </td>
+                </tr>
+                <tr style="height: 91px;">
+                    <td style="width: 100px; height: 91px;">4</td>
+                    <td style="width: 100px; height: 91px;">01-Oct</td>
+                    <td style="width: 600px; height: 91px;">
+                        <p><b>DNS/Certificates, CloudFront/CDN, Static Web Sites, OAuth2</b>
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-3"
+                                    aria-expanded="true" aria-controls="collapse1">
+                                <i class="fa fa-plus-square" style="font-size:18px;color:black"></i>
+                            </button>
+                        </p>
+                        <div id="collapse-3" class="collapse" aria-labelledby="heading2">
+                            <!-- data-parent="#accordion"> -->
+                            <ul>
+                                <li>Basic web architecture (certificates, DNS, ...).</li>
+                                <li>CloudFront, single site image.</li>
+                                <li>S3 overview and static web sites.</li>
+                                <li>IAM, OAuth2, Cognito, security concepts.</li>
+                            </ul>
+                                <ul>
+                                </ul>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="height: 91px;">
+                    <td style="width: 100px; height: 91px;">5</td>
+                    <td style="width: 100px; height: 91px;">08-Oct</td>
+                    <td style="width: 600px; height: 91px;">
+                        <p><b>Lamba Functions, Two-Factor Authentication, Email/Notification,
+                            API GW Authorization</b>
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-4"
+                                    aria-expanded="true" aria-controls="collapse1">
+                                <i class="fa fa-plus-square" style="font-size:18px;color:black"></i>
+                            </button>
+                        </p>
+                        <div id="collapse-4" class="collapse" aria-labelledby="heading2">
+                            <!-- data-parent="#accordion"> -->
+                            <ul>
+                                <li>Function-as-a-Service (Lambda Functions)</li>
+                                <li>Simple Email Service, device notification.</li>
+                                <li>API Gateway Authorization.</li>
+                                <li>Continuing security concepts.</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="height: 91px;">
+                    <td style="width: 100px; height: 91px;">6</td>
+                    <td style="width: 100px; height: 91px;">15-Oct</td>
+                    <td style="width: 600px; height: 91px;">
+                        <p><b>Project Reviews and Discussions.</b>
+
+                    </td>
+                </tr>
+                <tr style="height: 91px;">
+                    <td style="width: 100px; height: 91px;">7</td>
+                    <td style="width: 100px; height: 91px;">22-Oct</td>
+                    <td style="width: 600px; height: 91px;">
+                        <p><b>Publish/Subscribe, Message Driver Processing, Workflow/Service Orchestration</b>
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-5"
+                                    aria-expanded="true" aria-controls="collapse1">
+                                <i class="fa fa-plus-square" style="font-size:18px;color:black"></i>
+                            </button>
+                        </p>
+                        <div id="collapse-5" class="collapse" aria-labelledby="heading2">
+                            <!-- data-parent="#accordion"> -->
+                            <ul>
+                                <li>Message Driven Processing, Simple Message Service</li>
+                                <li>Pub/Sub concepts, Simple Notification Service, WebHooks.</li>
+                                <li>Step Functions</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="height: 91px;">
+                    <td style="width: 100px; height: 91px;">8</td>
+                    <td style="width: 100px; height: 91px;">29-Oct</td>
+                    <td style="width: 600px; height: 91px;">
+                        <p><b>No SQL Databases</b>
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-6"
+                                    aria-expanded="true" aria-controls="collapse1">
+                                <i class="fa fa-plus-square" style="font-size:18px;color:black"></i>
+                            </button>
+                        </p>
+                        <div id="collapse-6" class="collapse" aria-labelledby="heading2">
+                            <!-- data-parent="#accordion"> -->
+                            <ul>
+                                <li>Concepts.</li>
+                                <li>DynamoDB.</li>
+                                <li>DB Scalability Concepts.</li>
+                                <li>Consistency Models.</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="height: 91px;">
+                    <td style="width: 100px; height: 91px;">9</td>
+                    <td style="width: 100px; height: 91px;">05-Nov</td>
+                    <td style="width: 600px; height: 91px;">
+                        <p><b>Project Reviews and Discussions.</b>
+
+                    </td>
+                </tr>
+                <tr style="height: 91px;">
+                    <td style="width: 100px; height: 91px;">10</td>
+                    <td style="width: 100px; height: 91px;">12-November</td>
+                    <td style="width: 600px; height: 91px;">
+                        <p><b>Using Cloud Services</b>
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-10"
+                                    aria-expanded="true" aria-controls="collapse1">
+                                <i class="fa fa-plus-square" style="font-size:18px;color:black"></i>
+                            </button>
+                        </p>
+                        <div id="collapse-10" class="collapse" aria-labelledby="heading2">
+                            <!-- data-parent="#accordion"> -->
+                            <ul>
+                                <li>API Economy.</li>
+                                <li>Address Verification.</li>
+                                <li>Payment Services.</li>
+                                <li>etc.</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="height: 91px;">
+                    <td style="width: 100px; height: 91px;">11</td>
+                    <td style="width: 100px; height: 91px;">19-Nov</td>
+                    <td style="width: 600px; height: 91px;">
+                        <p><b>Systems and Application Management, CI/CD</b>
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-11"
+                                aria-expanded="true" aria-controls="collapse1">
+                            <i class="fa fa-plus-square" style="font-size:18px;color:black"></i>
+                        </button>
+                        </p>
+                        <div id="collapse-11" class="collapse" aria-labelledby="heading2">
+                            <!-- data-parent="#accordion"> -->
+                            <ul>
+                                <li>Miscellaneous topics in system and application management.</li>
+                                <li>Miscellaneous concepts in application development.</li>
+                                <li>Design patterns.</li>
+                                <li>etc.</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="height: 91px;">
+                    <td style="width: 100px; height: 91px;">12</td>
+                    <td style="width: 100px; height: 91px;">26-Nov</td>
+                    <td style="width: 600px; height: 91px;">
+                        <p><b>No Class (Thanksgiving)</b>
+                        </p>
+                    </td>
+                </tr>
+                <tr style="height: 91px;">
+                    <td style="width: 100px; height: 91px;">13</td>
+                    <td style="width: 100px; height: 91px;">03-Dec</td>
+                    <td style="width: 600px; height: 91px;">
+                        <p><b>Project reviews and discussions.</b>
+                        </p>
+                    </td>
+                </tr>
+                <tr style="height: 91px;">
+                    <td style="width: 100px; height: 91px;">14</td>
+                    <td style="width: 100px; height: 91px;">10-Dec</td>
+                    <td style="width: 600px; height: 91px;">
+                    <p><b>Overflow.</b>
+                    </p>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- /.row -->
+
+
+</div>
+<!-- /.container -->
+<p></p>
+<p></p>
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+    <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy;Donald F. Ferguson, 2020</p>
+    </div>
+    <!-- /.container -->
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
