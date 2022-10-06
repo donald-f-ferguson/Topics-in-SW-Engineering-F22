@@ -91,7 +91,38 @@ Professor Ferguson's application will implement the following paths:
 - ... ...
 
 There are a lot of possible paths. The objective is to implement an interesting set of paths
-demonstrate collections, query, following links, ... ...
+demonstrate collections, query, following links, ... ... You also need to implement pagination.
+
+## AWS Deployment
+
+| <img src="aws-deployment.png"> |
+|:------------------------------:|
+|       __AWS Deployment__       |
+
+Sprint 1 has three microservices. The deployment choices targets for Sprint 1 are:
+- EC2 VM
+- Elastic Beanstalk
+
+You must deploy one of the microservices on each of EC2 and Elastic Beanstalk. You can choose either environment
+for the 3rd microservice. The diagram depicts a database on the EC2 instance and also depicts a container. Prof.
+Ferguson's example will use this model, but you do not have to do so. The local DB on the EC2 instance is to
+help understand the value of DBaaS relative to installing a database. You will use containers in a future sprint.
+
+You must deploy your browser application in an S3 bucket and encapsulate with CloudFront.
+
+You can keep your data in a single AWS RDS instances, but should have three different databases.
+
+You must use the AWS API GW in front of all of your microservices. You can use 
+[HTTP integrations](https://docs.aws.amazon.com/apigateway/latest/developerguide/setup-http-integrations.html) to
+route the paths to the microservices.
+
+## Additional Requirements
+
+1. You must have GitHub projects associated with each of your repositories.<br><br>
+2. You must set up a shared [Trello](https://trello.com/en) environment and board for managing backlog, tasks, etc.
+For Sprint 1, the content can be very simple. We will get more experience over time.<br><br>
+3. You must have OpenAPI documents for each of your microservice interfaces.<br><br>
+
 
 
 
