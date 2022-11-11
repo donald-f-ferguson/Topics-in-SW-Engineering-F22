@@ -39,6 +39,13 @@ the authentication and notification functions.
       - The composite service composes/choreographs/orchestrate the core/atomic services.
 
 
+- Continuous Integration/Continuous Development:
+  - We will eventually use containers for deploying the composite service.  For sprint 2, simply deploy the microservice
+using EC2.
+  - You will add GitHub actions to automate deployment/redeployment of the composite microservice when a developer
+commits and pushes code to the repository.
+
+
 ## Task Specific Information
 
 TBD
