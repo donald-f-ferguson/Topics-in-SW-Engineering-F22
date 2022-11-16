@@ -1,5 +1,5 @@
-# E6156F21
-Base repository of material for E5156-001-Fall 21: Cloud Computing.
+# E6156F22
+Base repository of material for E6156-001-Fall 22: Cloud Computing.
 
-See the [website](https://donald-f-ferguson.github.io/E6156F21/)
+See the [website](https://donald-f-ferguson.github.io/Topics-in-SW-Engineering-F22/)
 for information.
